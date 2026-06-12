@@ -34,40 +34,58 @@ The project demonstrates how Artificial Intelligence, Computer Vision, and Audio
 🏗️ System Architecture
 
 Camera Feed + Microphone Feed
+
             │
             ▼
 
  ┌───────────────────────┐
+ 
  │  Video Processing     │
+ 
  │ Emergency Vehicle AI  │
+ 
  └───────────┬───────────┘
+ 
              │
 
  ┌───────────────────────┐
+ 
  │  Audio Processing     │
+ 
  │  Siren Detection AI   │
+ 
  └───────────┬───────────┘
+ 
              │
 
              ▼
 
  ┌───────────────────────┐
+ 
  │ Multimodal Fusion     │
+ 
  │ Decision Engine       │
+ 
  └───────────┬───────────┘
+ 
              │
 
              ▼
 
  ┌───────────────────────┐
+ 
  │ Traffic Signal        │
+ 
  │ Prioritization System │
+ 
  └───────────┬───────────┘
+ 
              │
 
              ▼
 
       Green Corridor
+      
       Generation
 
 ⚙️ How It Works
