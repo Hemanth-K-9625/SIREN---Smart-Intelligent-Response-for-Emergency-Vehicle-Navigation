@@ -32,7 +32,43 @@ The project demonstrates how Artificial Intelligence, Computer Vision, and Audio
 ✅ Smart City Ready Architecture
 
 🏗️ System Architecture
-<img width="1024" height="712" alt="SIREN_architecture" src="https://github.com/user-attachments/assets/60b4cf96-184c-4188-81e0-c95f84457937" />
+
+Camera Feed + Microphone Feed
+            │
+            ▼
+
+ ┌───────────────────────┐
+ │  Video Processing     │
+ │ Emergency Vehicle AI  │
+ └───────────┬───────────┘
+             │
+
+ ┌───────────────────────┐
+ │  Audio Processing     │
+ │  Siren Detection AI   │
+ └───────────┬───────────┘
+             │
+
+             ▼
+
+ ┌───────────────────────┐
+ │ Multimodal Fusion     │
+ │ Decision Engine       │
+ └───────────┬───────────┘
+             │
+
+             ▼
+
+ ┌───────────────────────┐
+ │ Traffic Signal        │
+ │ Prioritization System │
+ └───────────┬───────────┘
+             │
+
+             ▼
+
+      Green Corridor
+      Generation
 
 ⚙️ How It Works
 Step 1 — Video Analysis
@@ -79,65 +115,88 @@ Emergency Vehicle Given Right-of-Way
 After the vehicle passes:
 
 Signal returns to normal operation
+
 🧠 Technologies Used
+
 Programming
+
 Python
+
 Computer Vision
+
 OpenCV
+
 Deep Learning
+
 YOLO
+
 PyTorch
+
 Audio Processing
+
 Librosa
+
 NumPy
+
 Interface
+
 Tkinter
+
 📂 Project Structure
+
 SIREN/
+
 │
-├── main.py
-├── vehicle_detector.py
-├── siren_detector.py
-├── traffic_controller.py
-├── gui.py
+
+├──src/
+
+   ├── main.py
+
+   ├── vehicle_detector.py
+
+   ├── siren_detector.py
+
+   ├── traffic_controller.py
+  
+   └── decision_engine.py
+   
 │
+
 ├── models/
+
 │   ├── vehicle_model.pt
+
 │   └── siren_model.pth
+
 │
-├── assets/
-│
-├── architecture/
-│   └── siren_model_architecture.png
-│
+
 ├── requirements.txt
+
 └── README.md
 🧬 Siren Detection Model Architecture
 
 The architecture used for the siren detection module is shown below.
 
-📌 Add architecture image here
+<img width="1024" height="712" alt="SIREN_architecture" src="https://github.com/user-attachments/assets/60b4cf96-184c-4188-81e0-c95f84457937" />
 
 ![Siren Model Architecture](architecture/siren_model_architecture.png)
+
 📊 Datasets
+
 🚑 Emergency Vehicle Detection Dataset
 
 Dataset Link:
 
-[Add Vehicle Detection Dataset Link Here]
+[[Add Vehicle Detection Dataset Link Here]](https://universe.roboflow.com/yolo-emergency-recognition/ambulance-detection-wdbvs/dataset/1)
 🚨 Siren Audio Detection Dataset
 
 Dataset Link:
 
-[Add Siren Detection Dataset Link Here]
+[[Add Siren Detection Dataset Link Here]](https://www.kaggle.com/datasets/chrisfilo/urbansound8k)
 🤖 Model Weights
 
-Due to GitHub file size limitations, trained model weights are not included in this repository.
+Due to GitHub file size limitations, trained model weights for the siren detector are not included in this repository.
 
-Vehicle Detection Model
-[Add Vehicle Model Download Link]
-Siren Detection Model
-[Add Siren Model Download Link]
 🚀 Installation
 
 Clone the repository:
@@ -149,41 +208,69 @@ cd SIREN
 Install dependencies:
 
 pip install -r requirements.txt
+
 ▶️ Running the Project
+
 python main.py
+
 📈 Applications
+
 Smart Cities
+
 Intelligent Transportation Systems
+
 Emergency Response Infrastructure
+
 Urban Traffic Optimization
+
 AI-Based Traffic Management
+
 Smart Intersections
+
 🔬 Future Improvements
+
 Multi-Intersection Coordination
+
 Vehicle Tracking Across Cameras
+
 Edge AI Deployment
+
 Real Traffic Signal Hardware Integration
+
 Cloud Monitoring Dashboard
+
 Emergency Route Prediction
+
 GPS Integration with Emergency Vehicles
+
 📸 Demo
+
 System Running
 
 📌 Add screenshots here
 
 ![Demo](assets/demo.png)
+
 Video Demonstration
 
 📌 Add demo video link here
 
 [Add YouTube Demo Link]
+
 🏆 Project Highlights
+
 Multimodal AI System
+
 Real-Time Video + Audio Analysis
+
 Intelligent Traffic Signal Prioritization
+
 Smart City Application
+
 Computer Vision + Audio AI Integration
+
 End-to-End Deployment Pipeline
+
 👨‍💻 Author
 
 Hemanth Kumar K
