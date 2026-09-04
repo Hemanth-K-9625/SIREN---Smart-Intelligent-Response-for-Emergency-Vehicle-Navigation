@@ -8,6 +8,7 @@ By analyzing **live camera footage and audio input**, SIREN identifies the road 
 
 > 🎥 **Live Demo:** [![SIREN Demo](demo/demo_interface.png)](https://drive.google.com/file/d/1qDy2YgBJuH7FC8XmZSU_e0BYKzvSqbT-/view?usp=drive_link)
 
+*Click the image above to watch the full demo.*
 ---
 
 # 🌟 Overview
