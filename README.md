@@ -6,7 +6,7 @@
 
 By analyzing **live camera footage and audio input**, SIREN identifies the road from which an emergency vehicle is approaching and automatically assigns **traffic signal priority**, creating a simulated **green corridor** for faster emergency response.
 
-> 🎥 **Live Demo:** [Watch Demo Video Here](https://drive.google.com/file/d/1qDy2YgBJuH7FC8XmZSU_e0BYKzvSqbT-/view?usp=drive_link)
+> 🎥 **Live Demo:** [![SIREN Demo](demo/demo_interface.png)](https://drive.google.com/file/d/1qDy2YgBJuH7FC8XmZSU_e0BYKzvSqbT-/view?usp=drive_link)
 
 ---
 
