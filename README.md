@@ -510,7 +510,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Hemanth-K-9625/SIREN---Smart-Intelligent-Response-for-Emergency-Vehicle-Navigation
-cd SIREN
+cd SIREN---Smart-Intelligent-Response-for-Emergency-Vehicle-Navigation
 ```
 
 Install dependencies:
