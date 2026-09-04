@@ -6,7 +6,7 @@
 
 By analyzing **live camera footage and audio input**, SIREN identifies the road from which an emergency vehicle is approaching and automatically assigns **traffic signal priority**, creating a simulated **green corridor** for faster emergency response.
 
-> 🎥 **Live Demo:** [Add Your Demo Video Link Here](https://drive.google.com/file/d/1qDy2YgBJuH7FC8XmZSU_e0BYKzvSqbT-/view?usp=drive_link)
+> 🎥 **Live Demo:** [Watch Demo Video Here](https://drive.google.com/file/d/1qDy2YgBJuH7FC8XmZSU_e0BYKzvSqbT-/view?usp=drive_link)
 
 ---
 
@@ -425,14 +425,6 @@ Normal Signal Operation Resumes
 
 ---
 
-# 🧬 Siren Detection Model Architecture
-
-The siren detection module uses a deep learning architecture for classifying audio signals.
-
-![Siren Model Architecture](architecture/siren_model_architecture.png)
-
----
-
 # 🧠 Technologies Used
 
 ### Programming
@@ -517,7 +509,7 @@ The required model files should be placed inside the `models/` directory.
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/SIREN.git
+git clone https://github.com/Hemanth-K-9625/SIREN---Smart-Intelligent-Response-for-Emergency-Vehicle-Navigation
 cd SIREN
 ```
 
